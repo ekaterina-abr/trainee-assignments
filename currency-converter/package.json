@@ -8,12 +8,8 @@
     "dev": "webpack serve --mode development",
     "start": "webpack serve --mode production",
     "eslint": "eslint ./src",
-    "prettier": "prettier --write ./src"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier && npm run eslint"
-    }
+    "prettier": "prettier --write ./src",
+    "prepare": "cd .. && husky install ./currency-converter/.husky"
   },
   "keywords": [],
   "author": "",
