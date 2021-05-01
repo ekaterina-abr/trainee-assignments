@@ -1,0 +1,3 @@
+export const UPDATE_CURRENCY = 'UPDATE_CURRENCY';
+export const SET_USER_CURR = 'SET_USER_CURR';
+export const SET_CURR_DATE = 'SET_CURR_DATE';
